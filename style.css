@@ -1,0 +1,48 @@
+body {
+    background: aquamarine;
+}
+
+#main-content {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+.text-wrapper {
+    text-align: center;
+    font-family: "Roboto Thin", sans-serif;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    justify-content: space-around;
+
+}
+
+.feature-list {
+    text-align: justify;
+}
+
+.grid-item-cons:hover {
+    background: lightcoral;
+    transition: 0.5s;
+}
+
+.grid-item-pros:hover {
+    background: lightgreen;
+    transition: 0.5s;
+}
+
+.warning {
+    margin-top: 200px;
+}
+
+#intruder {
+    min-width: 50px;
+}
