@@ -29,6 +29,10 @@ body {
     text-align: justify;
 }
 
+li:nth-child(2n) {
+    background: mediumseagreen;
+}
+
 .grid-item-cons:hover {
     background: lightcoral;
     transition: 0.5s;
@@ -44,5 +48,8 @@ body {
 }
 
 #intruder {
-    min-width: 50px;
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 50px;
 }
